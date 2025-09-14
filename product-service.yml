@@ -1,11 +1,15 @@
-spring:
-  profiles:
-    active: dev
+server:
+  port: 8081
     
 spring:
   application:
     name: product-service
-    
+
+product:
+  service:
+    base-url: http://localhost:8081/api/products
+
+
 spring:
   cloud:
     config:
