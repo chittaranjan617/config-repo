@@ -9,7 +9,7 @@ spring:
 
 product:
   service:
-    base-url: http://localhost:8081/api/products
+    base-url: http://localhost:8080/api/products
 
 eureka:
   client:
